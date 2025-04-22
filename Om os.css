@@ -44,11 +44,76 @@ nav a:hover {
 }
 
 
+.Hvad video{
+    display:block; /* Removes any spacing around images */
+    width: 50%;
+    object-fit: contain; /* Ensures the image maintains aspect ratio */
+    margin-top: -24.1%;
+    margin-left: 50%;
+    margin-right: 0;
+}
+
+.Hvad h2 {
+    font-family: cinzel, sans-serif;
+    font-size: 30px;
+    color: #0D9655;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.Hvad p {
+    font-family: cinzel, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10%;
+
+}
 
 
+.Fællesskab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+    gap: 40px;
+    flex-wrap: wrap; /* makes it responsive */
+}
 
+.Fællesskab img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
 
+}
+
+.tekst-og-knap {
+    width: 45%;
+    font-family: cinzel, sans-serif;
+    color: black;
+}
+
+.tekst-og-knap p {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 15%;
+}
+
+#button-container {
+    margin-top: 60px;
+    margin-left: 30%;
+    background-color: #0D9655;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-family: cinzel, sans-serif;
+    font-size: 16px;
+}
+
+#button-container a {
+    color: white;
+    text-decoration: none;
+}
 
 
 
@@ -193,4 +258,8 @@ footer div button {
         font-size: 18px;
     }
 
+    body {
+        flex-direction: column;
+    }
+    
 }
