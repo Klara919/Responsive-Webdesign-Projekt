@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: cinzel, sans-serif;
 
 }
 
@@ -51,6 +52,7 @@ nav a:hover {
     margin-top: -24.1%;
     margin-left: 50%;
     margin-right: 0;
+    top: 0%;
 }
 
 .Hvad h2 {
@@ -96,7 +98,7 @@ nav a:hover {
 .tekst-og-knap p {
     font-size: 16px;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 #button-container {
@@ -114,19 +116,6 @@ nav a:hover {
     color: white;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -258,8 +247,51 @@ footer div button {
         font-size: 18px;
     }
 
-    body {
-        flex-direction: column;
+
+    .Hvad h2 {
+        font-family: cinzel, sans-serif;
+        font-size: 30px;
+        color: #0D9655;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Hvad p {
+        font-family: cinzel, sans-serif;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0;
+    
+    }
+
+    .Hvad video{
+        display:block; /* Removes any spacing around images */
+        width: 100%;
+        object-fit: contain; /* Ensures the image maintains aspect ratio */
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Fællesskab img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    
     }
     
+    .tekst-og-knap {
+        width: 100%;
+        font-family: cinzel, sans-serif;
+        color: black;
+    }
+
+
+    .tekst-og-knap p {
+        font-size: 16px;
+        text-align: center;
+        margin-left: 0;
+    }
 }
